@@ -27,7 +27,7 @@ public class exercicio_10 {
                 System.out.println("Valor inválido! Informe as paradas (>=0): ");
                 paradas = sc.nextInt();
             }
-            disponibilidade = ciclos / (ciclos + paradas);
+            disponibilidade = (double) ciclos / (ciclos + paradas);
             System.out.println("Disponibilidade: " + disponibilidade);
             System.out.println("Deseja calcular novamente ? (s/n): ");
             continuar = sc.next();

@@ -7,11 +7,11 @@ public class exercicio_18 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        double takt, tempo, somaTempos = 0, media = 0;
+        double tempo, somaTempos = 0, media = 0;
         int contador = 0;
 
         System.out.print("Informe o Takt time: ");
-        takt = sc.nextDouble();
+        sc.nextDouble();
         System.out.println("Digite os tempos das estações (digite 0 ou negativo para parar):");
         tempo = sc.nextDouble();
         while (tempo > 0) {

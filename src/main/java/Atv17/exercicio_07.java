@@ -19,7 +19,7 @@ public class exercicio_07 {
             }
         } while (energia != 0);
         if (turnos > 0) {
-            media = soma / turnos;
+            media = (double) soma / turnos;
             System.out.println("Total: " + soma + " Média:" + media);
         } else {
             System.out.println("Nenhum turno registrado. ");

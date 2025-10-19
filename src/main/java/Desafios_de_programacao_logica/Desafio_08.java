@@ -9,16 +9,18 @@ public class Desafio_08 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite um número decimal: ");
         int decimal = sc.nextInt();
-        String binario = "";
+        String binario;
         int num = decimal;
         if (num == 0) {
             binario = "0";
         } else {
+            StringBuilder binarioBuilder = new StringBuilder();
             while (num > 0) {
                 int resto = num % 2;
-                binario = resto + binario;
+                binarioBuilder.insert(0, resto);
                 num = num / 2;
             }
+            binario = binarioBuilder.toString();
         }
         System.out.println("Representação binária de " + decimal + " é: " + binario);
         sc.close();

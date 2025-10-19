@@ -16,7 +16,7 @@ public class exercicio_09 {
             System.out.println("Previsão de damanda para o dia: " + d + " foram feitas " + previsao + " unidades");
             soma += previsao;
         }
-        media = soma / 31;
+        media = (double) soma / 31;
         System.out.println("A média de unidade produzidas foram de: " + media);
         sc.close();
     }
