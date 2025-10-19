@@ -1,4 +1,4 @@
-package Desafios_de_programação_logica;
+package Desafios_de_programacao_logica;
 
 import java.util.Locale;
 import java.util.Random;

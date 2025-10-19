@@ -1,4 +1,4 @@
-package Desafios_de_programação_logica;
+package Desafios_de_programacao_logica;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -18,7 +18,6 @@ public class Desafio_01 {
                 atual= b;
             } else {
                 atual = a+b;
-                a=b;
                 a=atual;
             }
             boolean primo= true;
