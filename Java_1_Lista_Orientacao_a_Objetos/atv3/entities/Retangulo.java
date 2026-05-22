@@ -1,0 +1,15 @@
+package Java_1_Lista_Orientacao_a_Objetos.atv3.entities;
+
+public class Retangulo {
+    private double base;
+    private double altura;
+
+    public Retangulo(double base, double altura) {
+        this.base = base;
+        this.altura = altura;
+    }
+
+    public double calcularArea() {
+        return base * altura;
+    }
+}
